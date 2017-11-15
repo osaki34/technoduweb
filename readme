@@ -1,0 +1,9 @@
+pas oublier de faire un git
+
+
+avant tous : faire un public_html dans le host
+faire un fichier .htaccess
+
+avec dedans "php_flag display_errors on" permettant à php de voir les erreurs
+
+ouverture du site .php via localhost
