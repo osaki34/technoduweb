@@ -7,3 +7,27 @@ faire un fichier .htaccess
 avec dedans "php_flag display_errors on" permettant à php de voir les erreurs
 
 ouverture du site .php via localhost
+
+pour git
+
+dans le fichier créé : terminal git init
+git pull origin master 
+
+git remote add origin https//github...le lien donné sur git (après création d'un compte privé via la fac qui deviendra publique à la fin des études)
+
+git add * (prend tous)
+git commit -m "premier commit"
+
+copié collé de tous 
+
+git add *
+
+git commit -m "ajout fichiers"
+
+git push origin master
+
+Pour faire fonctionner en local:
+	- sudo apt install mysql-server php php-cli
+	- tu te met dans ton dossier de travail contenant index.html et taper :
+				- php -S localhost:8080
+				Ca démarre un environnement virtuel de travail : dans le navigateur tapez : localhost:8080
