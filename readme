@@ -30,6 +30,7 @@ Pour faire fonctionner en local:
 	- sudo apt install mysql-server php php-cli
 	- tu te met dans ton dossier de travail contenant index.html et taper :
 				- php -S localhost:8080
+<<<<<<< HEAD
 				Ca démarre un environnement virtuel de travail : dans le navigateur tapez : localhost:8080
 
 
@@ -88,3 +89,6 @@ a faire mais déjà connecté à l'html
 
 
 
+=======
+				Ca démarre un environnement virtuel de travail : dans le navigateur tapez : localhost:8080
+>>>>>>> 247bae04eab29a018fa54c67374bb9632c2b441f
