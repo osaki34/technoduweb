@@ -1,0 +1,22 @@
+body {
+    
+}
+
+#main {
+    width: 50%;
+    margin: auto;
+}
+
+#title {
+    margin-bottom: 4em;
+}
+
+#title img {
+    width: 100px;
+    float: left;
+    margin-right: 30px;
+}
+
+#messages {
+    margin-top: 50px;
+}

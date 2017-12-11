@@ -1,0 +1,90 @@
+pas oublier de faire un git
+
+
+avant tous : faire un public_html dans le host
+faire un fichier .htaccess
+
+avec dedans "php_flag display_errors on" permettant à php de voir les erreurs
+
+ouverture du site .php via localhost
+
+pour git
+
+dans le fichier créé : terminal git init
+git pull origin master 
+
+git remote add origin https//github...le lien donné sur git (après création d'un compte privé via la fac qui deviendra publique à la fin des études)
+
+git add * (prend tous)
+git commit -m "premier commit"
+
+copié collé de tous 
+
+git add *
+
+git commit -m "ajout fichiers"
+
+git push origin master
+
+Pour faire fonctionner en local:
+	- sudo apt install mysql-server php php-cli
+	- tu te met dans ton dossier de travail contenant index.html et taper :
+				- php -S localhost:8080
+				Ca démarre un environnement virtuel de travail : dans le navigateur tapez : localhost:8080
+
+
+le 10 12 2017
+
+réalisé a ce jour: pas grand chose
+
+préparation : 
+
+	virtualbox: fichier partage : sudo mount -t vboxsf fichier /mnt/fichier (permission, montage -t de virtualbox nom du fichier défini et destination dans la virtualbox)
+
+	installer php et mysql
+	installer guake et faire ouverture automatique à l'ouverture de ubuntu
+
+sous terminal sur la page où se situe les fichiers web faire php -S localhost:8080
+modifier le fichier php.ini ==> faire un fichier php avec dedans <?php phpinfo() ?> permettant de voir les info de php. 
+
+ouvrir (après avoir fait le php -S localhost:8080) dans firefox (mettre en url localhost:8080/nom_du_fichierphp.php)
+trouver le lien vers le fichier php.ini
+décommenter (enlever le ;) la partie en référence au driver pdo mysql.dll 
+
+activer les display errors de php display_errors = on sur php.ini
+
+apt-get install php7.0-mysql si ne trouve pas les drivers pdo.
+sudo phpenmod pdo_mysql pour activer le pdo (objet pour php et mysql sur les bdd)
+
+git :
+
+dans terminal
+
+git init
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git remote add origin [adresse URL GitHub ici] : Connecte votre dépôt local avec GitHub.
+git clone <URL PROVENANT DE GITHUB> : clone un projet de votre système à partir de github
+
+sublime text :
+subl pour raccourci configurer pour l'ouverture 
+
+
+HTML structure: 
+
+entete.html et pied.html pour répéter les fichiers dans index.php 
+
+PHP structure:
+
+index.php ==> <?php include les 2 fichiers entete.html: et pied.html: ainsi que include ('lesfichiers.php'): dont le fichier bdd.php comprenant toutes les fonctions et le fichier init.sql qui va initier la base données. 
+
+init.sql:
+
+CREATE DATABASE plant;
+
+CSS: 
+a faire mais déjà connecté à l'html 
+
+
+
+
